@@ -2,7 +2,6 @@ import "./App.css";
 import { useGlobalContext } from "./context/context";
 import { ThreeDots } from "react-loader-spinner";
 import { Search, CurrentWeather, Forecast } from "./components/index";
-
 function App() {
   const { loading } = useGlobalContext();
   console.log(loading);
